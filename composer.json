@@ -1,0 +1,46 @@
+{
+  "name": "poldixd/laravel-strip-tags",
+  "license": "MIT",
+  "homepage": "https://github.com/poldixd/laravel-strip-tags",
+  "authors": [
+    {
+      "name": "Nils Poltmann",
+      "email": "dev@nils.li"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^9.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^7.0",
+    "pestphp/pest": "^1.21"
+  },
+  "autoload": {
+    "psr-4": {
+      "poldixd\\StripTags\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/pest"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "poldixd\\StripTags\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "poldixd\\StripTags\\StripTagsServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
