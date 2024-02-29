@@ -1,3 +1,6 @@
+> [!WARNING]
+> Package is abandoned. Please use the Laravel native method: https://laravel.com/docs/10.x/strings#method-fluent-str-strip-tags
+
 # Use strip_tags() in fluent strings
 
 With this package you can use strip_tags() in laravel fluent strings.

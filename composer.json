@@ -2,6 +2,7 @@
   "name": "poldixd/laravel-strip-tags",
   "license": "MIT",
   "homepage": "https://github.com/poldixd/laravel-strip-tags",
+  "abandoned": true,
   "authors": [
     {
       "name": "Nils Poltmann",
